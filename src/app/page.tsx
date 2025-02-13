@@ -15,8 +15,8 @@ import { useEffect, useState } from "react";
 import SwapInput from "./components/SwapInput";
 
 const Home = () => {
-  const TOKEN_CONTRACT = "0x3489a5A675bd2cE38b2F6474d84337D2ae498Eaf";
-  const DEX_CONTRACT = "0x896CA0ddc1593705508C7aF590b29FB754A098e6";
+  const TOKEN_CONTRACT = "0xA0B51195a274c96f0E7d7374ee1649994c83fc77";
+  const DEX_CONTRACT = "0xE4B71577264934020bcBB7430aa40Cf41fDEc4D6";
 
   const address = useAddress();
   const { contract: tokenContract } = useContract(TOKEN_CONTRACT);
@@ -143,7 +143,7 @@ const Home = () => {
             max={nativeBalance?.displayValue || "0"}
             value={nativeValue}
             setValueAction={setNativeValue}
-            tokenSymbol="BNB"
+            tokenSymbol="AVAX"
             tokenBalance={nativeBalance?.displayValue || "0"}
           />
           <button
