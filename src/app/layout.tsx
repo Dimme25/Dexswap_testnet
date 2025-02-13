@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <QueryClientProvider client={queryClient}>
-          <ThirdwebProvider activeChain={ChainId.AvalancheFujiTestnet}>
+          <ThirdwebProvider activeChain={ChainId.BinanceSmartChainMainnet}>
             <Navbar />
             <main>{children}</main>
           </ThirdwebProvider>
