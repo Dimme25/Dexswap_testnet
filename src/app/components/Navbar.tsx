@@ -11,7 +11,7 @@ export default function Navbar() {
             justifyContent: "space-between",
             margin: "10px",
         }}>
-            <h1>DEXSWAP</h1>
+            <h1>Swap BNB/NBLA</h1>
             <ConnectWallet />
         </div>
     );
